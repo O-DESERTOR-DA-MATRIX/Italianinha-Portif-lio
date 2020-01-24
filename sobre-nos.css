@@ -1,0 +1,298 @@
+#menu,
+.menu {
+    display: none;
+}
+
+#pizzaria-italianinha-logo {
+    width: 136px !important;
+    height: 75px !important;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        display: none;
+    }
+    #menu:checked~nav {
+        display: block;
+    }
+    .menu {
+        display: block;
+        background: #ccc;
+        padding: 10px;
+        float: right;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        padding: 10px 0px;
+    }
+    nav ul li a {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+}
+
+@media(min-width: 992px) {
+    #menu-drop {
+        height: 84px !important;
+    }
+    .navbar-nav a {
+        margin-left: 15px !important;
+        color: rgb(88, 88, 88) !important;
+    }
+}
+
+@media(max-width: 991px) {
+    .navbar-nav a {
+        margin-left: 15px !important;
+        color: rgb(88, 88, 88) !important;
+        text-align: center !important;
+    }
+}
+
+#footer {
+    width: 100%;
+    height: 350px;
+    margin-top: 230px;
+    background: #1a1a1a !important;
+    border-top: #191919 0.5px solid;
+}
+
+#icons {
+    font-size: 19px;
+}
+
+@media(max-width:991px) {
+    #fb-icon-mobile {
+        margin-left: 16px;
+        text-align: center !important;
+    }
+    #ig-icon-mobile {
+        padding-right: 6px;
+        padding-left: 6px;
+        color: #d32681 !important;
+        text-align: center !important;
+    }
+    #whats-icon-mobile {
+        padding-right: 6px;
+        color: green;
+        text-align: center !important;
+    }
+    #social-m-icon-mobile {
+        font-size: 19px;
+        text-align: center !important;
+        margin-top: 13px;
+    }
+}
+
+@media(min-width:992px) {
+    #fb-icon-mobile {
+        margin-left: 16px;
+        text-align: center !important;
+    }
+    #ig-icon-mobile {
+        padding-right: 6px;
+        padding-left: 6px;
+        color: #d32681 !important;
+        text-align: center !important;
+    }
+    #whats-icon-mobile {
+        padding-right: 6px;
+        color: green;
+        text-align: center !important;
+    }
+    #social-m-icon-mobile {
+        font-size: 19px;
+        text-align: center !important;
+        float: left !important;
+        margin-left: auto !important;
+        margin-right: 100px;
+    }
+}
+
+#events {
+    padding-top: 12px;
+    font-size: 13.5px;
+    font-family: sans-serif;
+    color: rgb(209, 209, 209);
+    text-align: center;
+}
+
+#event-h3 {
+    font-weight: bolder;
+    font-size: 24.5px;
+}
+
+#location {
+    text-align: left !important;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+#footer {
+    width: 100%;
+    height: 345px !important;
+    margin-top: 230px;
+    overflow: hidden !important;
+    border-top: rgb(255, 255, 0) solid 1.5px !important;
+}
+
+#menu-drop ul li a {
+    color: rgba(71, 71, 71, 0.932) !important;
+    font-family: 'Playball', cursive, 'Damion', cursive;
+    font-size: 24px;
+}
+
+#menu-drop ul li a:hover {
+    color: rgb(20, 20, 20) !important;
+    transition-duration: 0.4s !important;
+}
+
+#card-cont {
+    height: 70px;
+    width: 310px;
+    padding: 1em;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 80px;
+    text-align: center !important;
+    font-size: 18.5px !important;
+    position: relative !important;
+    border: #ffff55 2px solid !important;
+    border-radius: 13px;
+    background: #191919ea;
+}
+
+#card-cont-lyric {
+    color: #ffff71;
+    text-align: center !important;
+    margin-top: -23px;
+    font-size: 47px;
+    font-family: 'Playball', cursive, 'Damion', cursive;
+}
+
+#cardapio-lyric {
+    text-align: center !important;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 3.5px;
+    color: rgb(255, 255, 75);
+}
+
+@media(max-width: 991px) {
+    .navbar-nav a {
+        margin-left: 15px !important;
+        color: rgb(155, 155, 155) !important;
+        text-align: center !important;
+    }
+    #slide1 {
+        height: 300px !important;
+        border-top: 5px rgba(255, 255, 0, 0.384) solid !important;
+        border-bottom: 1px rgba(0, 0, 0, 0.5) solid !important;
+        margin-top: -70px;
+    }
+    #card-cont {
+        height: 55px;
+        width: 310px;
+        padding: 1em;
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        margin-top: 80px;
+        text-align: center !important;
+        font-size: 18.5px !important;
+        position: relative !important;
+        border: #ffff55 2px solid !important;
+        border-radius: 13px;
+        background: #191919ea;
+    }
+    #card-cont-lyric {
+        color: #ffff71;
+        text-align: center !important;
+        margin-top: -25px;
+        font-size: 38.5px;
+        font-family: 'Playball', cursive, 'Damion', cursive;
+    }
+}
+
+@media(min-width:992px) {
+    #cont-text-legend {
+        max-width: 700px;
+    }
+    #img-01 {
+        margin-top: 59px;
+        max-height: 250px;
+        width: 320px;
+        float: left;
+    }
+    #title-cont-01 {
+        font-size: 20px;
+    }
+    #text-div {
+        float: left !important;
+        margin-top: 47px;
+        font-size: 15px;
+        margin-left: 17px;
+        padding-bottom: 25px;
+    }
+    #teste {
+        margin-left: -100px;
+    }
+    #cont-text-legend-02 {
+        max-width: 700px;
+        padding-bottom: 75px;
+    }
+    #img-02 {
+        margin-top: 59px;
+        max-height: 250px;
+        width: 320px;
+        float: right;
+        margin-right: 125px;
+    }
+    #title-cont-02 {
+        font-size: 20px;
+    }
+    #text-div-02 {
+        float: left !important;
+        margin-top: 47px;
+        font-size: 15px;
+        margin-left: -3px;
+    }
+    #teste-02 {
+        margin-left: -100px;
+    }
+    #footer {
+        margin-top: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    #title-cont-01 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    #img-01 {
+        height: 290px;
+    }
+    #img-02 {
+        height: 290px;
+    }
+    #title-cont-02 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    #footer {
+        margin-top: 35px;
+    }
+}
+
+#about-us-cont-last {
+    overflow-y: hidden !important;
+}

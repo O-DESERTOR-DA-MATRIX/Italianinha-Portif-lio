@@ -1,0 +1,371 @@
+#menu,
+.menu {
+    display: none;
+}
+
+#pizzaria-italianinha-logo {
+    width: 136px !important;
+    height: 75px !important;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        display: none;
+    }
+    #menu:checked~nav {
+        display: block;
+    }
+    .menu {
+        display: block;
+        background: #ccc;
+        padding: 10px;
+        float: right;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        padding: 10px 0px;
+    }
+    nav ul li a {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+}
+
+@media(min-width: 992px) {
+    #menu-drop {
+        height: 84px !important;
+    }
+    .navbar-nav a {
+        margin-left: 15px !important;
+        color: rgb(88, 88, 88) !important;
+    }
+    #slide1 {
+        height: 450px !important;
+        border-top: 5px rgba(255, 255, 0, 0.384) solid !important;
+        border-bottom: 1px rgba(0, 0, 0, 0.5) solid !important;
+    }
+}
+
+@media(max-width: 991px) {
+    .navbar-nav a {
+        margin-left: 15px !important;
+        color: rgb(88, 88, 88) !important;
+        text-align: center !important;
+    }
+    #slide1 {
+        height: 400px !important;
+        border-top: 5px rgba(255, 255, 0, 0.384) solid !important;
+        border-bottom: 1px rgba(0, 0, 0, 0.5) solid !important;
+    }
+}
+
+#aboutus {
+    height: 530px;
+    background: white!important;
+    text-align: center !important;
+    overflow: hidden !important;
+    position: static !important;
+}
+
+@media(max-width: 353px) {
+    #aboutus {
+        height: 610px;
+        background: white!important;
+        text-align: center !important;
+        overflow: hidden !important;
+        position: static !important;
+    }
+}
+
+@media(max-width: 270px) {
+    #aboutus {
+        height: 650px;
+        background: white!important;
+        text-align: center !important;
+        overflow: hidden !important;
+        position: static !important;
+    }
+}
+
+@media(max-width: 196px) {
+    #aboutus {
+        height: 800px;
+        background: white!important;
+        text-align: center !important;
+        overflow: hidden !important;
+        position: static !important;
+    }
+}
+
+#text {
+    padding-top: 90px;
+}
+
+#h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+}
+
+#p2 {
+    padding-top: 50px !important;
+    font-size: 35px;
+    font-family: 'Courgette', cursive;
+}
+
+#points {
+    font-size: 29px;
+    margin-top: -28px !important;
+}
+
+#description {
+    text-align: center !important;
+}
+
+#about-btn {
+    height: 37px;
+    width: 113px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px !important;
+    border: 1px #bebebe solid;
+    background: white !important;
+}
+
+#end-img {
+    margin-top: -53px;
+    width: 100% !important;
+    height: 510px !important;
+    border-bottom: 1px yellow solid !important;
+    border-top: 1.5px yellow solid !important;
+}
+
+@media(max-width: 992px) {
+    #end-img {
+        height: 320px !important;
+        width: 100% !important;
+    }
+}
+
+#contact-btn {
+    color: #ffff94;
+    background-color: #191919!important;
+    border: rgb(241, 241, 53) solid 1px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    float: right !important;
+    margin-top: -80px !important;
+    margin-right: 12% !important;
+    font-size: 15px;
+}
+
+#delivery {
+    margin-top: -250px !important;
+    text-align: center !important;
+    min-width: 106px;
+    max-width: 900px;
+    word-wrap: break-word;
+    font-size: 23.5px !important;
+    align-content: center !important;
+    color: rgb(252, 252, 132) !important;
+}
+
+@media(max-width: 374px) {
+    #contact-btn {
+        margin-top: -59px !important;
+    }
+}
+
+@media(max-width: 374px) {
+    #delivery {
+        font-size: 21.5px !important;
+    }
+}
+
+@media(width: 375px) {
+    #delivery {
+        font-size: 22.5px !important;
+    }
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+@media(min-width: 1232px) {
+    #delivery {
+        margin-top: -250px !important;
+        color: white;
+        text-align: center !important;
+        font-size: 23.5px !important;
+        align-content: center !important;
+        margin-left: 100px !important;
+        width: 900px;
+    }
+}
+
+@media(max-width: 930px) {
+    #delivery {
+        color: rgb(250, 250, 146) !important;
+    }
+}
+
+#last-div {
+    width: 100%;
+    height: 480px;
+    text-align: center !important;
+    position: static !important;
+}
+
+#last-text {
+    padding-top: 240px !important;
+    font-family: sans-serif !important;
+    font-size: 24px !important;
+    color: black !important;
+}
+
+#last-points {
+    font-family: sans-serif !important;
+    font-size: 24px !important;
+    color: rgb(214, 214, 214) !important;
+}
+
+#last-ad {
+    font-family: sans-serif !important;
+    font-size: 17.5px !important;
+    color: rgb(53, 53, 53) !important;
+    margin-top: 25px;
+}
+
+#ifood {
+    margin-top: 35px;
+    width: 150px;
+    height: 150px;
+}
+
+#last-contact {
+    margin-top: 35px;
+    background: #191919;
+    border-bottom: yellow solid 0.5px !important;
+    border-top: yellow solid 2.0px !important;
+    border-left: yellow solid 1.0px !important;
+    border-right: yellow solid 1.0px !important;
+    color: #ffff94;
+}
+
+#footer {
+    width: 100%;
+    height: 350px;
+    margin-top: 230px;
+    background: #1a1a1a !important;
+    border-top: #191919 0.5px solid;
+}
+
+#icons {
+    font-size: 19px;
+}
+
+@media(max-width:991px) {
+    #fb-icon-mobile {
+        margin-left: 16px;
+        text-align: center !important;
+    }
+    #ig-icon-mobile {
+        padding-right: 6px;
+        padding-left: 6px;
+        color: #d32681 !important;
+        text-align: center !important;
+    }
+    #whats-icon-mobile {
+        padding-right: 6px;
+        color: green;
+        text-align: center !important;
+    }
+    #social-m-icon-mobile {
+        font-size: 19px;
+        text-align: center !important;
+        margin-top: 13px;
+    }
+}
+
+@media(min-width:992px) {
+    #fb-icon-mobile {
+        margin-left: 16px;
+        text-align: center !important;
+    }
+    #ig-icon-mobile {
+        padding-right: 6px;
+        padding-left: 6px;
+        color: #d32681 !important;
+        text-align: center !important;
+    }
+    #whats-icon-mobile {
+        padding-right: 6px;
+        color: green;
+        text-align: center !important;
+    }
+    #social-m-icon-mobile {
+        font-size: 19px;
+        text-align: center !important;
+        float: left !important;
+        margin-left: auto !important;
+        margin-right: 100px;
+    }
+}
+
+#events {
+    padding-top: 12px;
+    font-size: 13.5px;
+    font-family: sans-serif;
+    color: rgb(209, 209, 209);
+    text-align: center;
+}
+
+#event-h3 {
+    font-weight: bolder;
+    font-size: 24.5px;
+}
+
+#location {
+    text-align: left !important;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+#footer {
+    width: 100%;
+    height: 345px !important;
+    margin-top: 230px;
+    overflow: hidden !important;
+    border-top: rgb(255, 255, 0) solid 1.5px !important;
+}
+
+#menu-drop ul li a {
+    color: rgba(71, 71, 71, 0.932) !important;
+    font-family: 'Playball', cursive, 'Damion', cursive;
+    font-size: 24px;
+}
+
+#menu-drop ul li a:hover {
+    color: rgb(20, 20, 20) !important;
+    transition-duration: 0.4s !important;
+}
+
+@media(max-width:991px) {
+    #last-div {
+        margin-top: -35px;
+    }
+}
+
+@media(min-width:992px) {
+    #last-div {}
+}
+
+@media(max-width:507px) {
+    #last-div {
+        margin-top: -105px;
+    }
+}
