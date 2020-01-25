@@ -195,6 +195,30 @@ body {
     overflow-x: hidden !important;
 }
 
+@media(max-width:991px) {
+    #last-div {
+        margin-top: -35px;
+    }
+}
+
+@media(max-width:991px) {
+    #last-div {
+        margin-top: -75px;
+    }
+    #footer {
+        margin-top: 270px;
+    }
+}
+
+@media(min-width:747px) and (max-width: 991px) {
+    #last-div {
+        margin-top: -10px;
+    }
+    #footer {
+        margin-top: 270px;
+    }
+}
+
 @media(min-width: 1232px) {
     #delivery {
         margin-top: -250px !important;
@@ -352,20 +376,4 @@ body {
 #menu-drop ul li a:hover {
     color: rgb(20, 20, 20) !important;
     transition-duration: 0.4s !important;
-}
-
-@media(max-width:991px) {
-    #last-div {
-        margin-top: -35px;
-    }
-}
-
-@media(min-width:992px) {
-    #last-div {}
-}
-
-@media(max-width:507px) {
-    #last-div {
-        margin-top: -105px;
-    }
 }
